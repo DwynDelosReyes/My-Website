@@ -1,0 +1,202 @@
+* {
+    padding: 0%;
+    border: 0cap;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    word-spacing: 1%;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(0, 7, 66);
+    color: white;
+}
+.navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+
+/* Headings */
+h1{
+    text-align: center;
+    margin: 100% 10% 0% 10%;
+}
+h2 {
+    margin-left: 5%
+}
+
+/* Home Page */
+.homePageSuperDiv0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 10rem 7.7rem 10rem;
+}
+.homePageIntro {
+    line-height: 2rem
+}
+#profilePicture {
+    width: 300px;
+    height: 300px;
+    margin: 7.5%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Coding Projects */
+.codingPojectsSuperDiv0, .codingPojectsSuperDiv1, .codingPojectsSuperDiv2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+}
+#codingProjectsButton {
+    background-color: rgb(0, 7, 66);
+    border-color: rgb(0, 7, 66);
+}
+#codingProjectsButton:hover {
+    background-color: rgb(17, 47, 138);
+    border-color: rgb(17, 47, 138);
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Credentials */
+.credentialsSuperDiv0 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5% 0%;
+    background-image: url(background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+}
+.credentialsSubDiv0, .credentialsSubDiv1, .credentialsSubDiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0 10px;
+}
+.credentialsImg {
+    padding: 7%;
+    margin: 1%;
+    width: 150px;
+    height: auto;
+}
+.credentialsHead {
+    padding: 1% 0;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.credentialsList {
+    list-style-type: square;
+    padding: 2%;
+}
+.credentialsList li {
+    margin-bottom: 5px;
+}
+
+
+/* Video Editing */
+.videoEditingProjectsSuperDiv0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    gap: 20px;
+}
+.videoEditingProjectsSuperDiv0 iframe {
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+}
+
+/* Photography */
+.photographyProjectsSuperDiv0, .photographyProjectsSuperDiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+.photographyImg {
+    max-width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    border-radius: 10px; 
+}
+.photographyImg:hover {
+    box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.45);
+    transform: scale(1.1);
+}
+.modal-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contacts */
+.contactsSuperDiv0 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 4% 10% 8% 20%; 
+}
+.contactsSubDiv0 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-basis: 50%;
+}
+#contactPicture {
+    width: 100%;
+    object-fit: cover; 
+    max-height: 100%; 
+}
+.contactsSubDiv1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 60%; 
+    padding-left: 5%;
+    margin-left: 5%;
+}
+.contactInfo {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+.img-contact {
+    width: 35px; 
+    height: auto;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+.contactInfo a {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline-block;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
+}
+.contactInfo a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: rgb(0, 7, 66);
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    padding-top: 1.2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
